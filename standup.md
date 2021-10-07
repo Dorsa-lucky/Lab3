@@ -5,8 +5,8 @@
   >* unit 
   >* box model
 2. add **css selecotrs** topics: 
-  - Class Selector (.class)
-  - ID Selector (#id)
-  - Universal Selector (*)
-  - Element Selector (element) 
-  - Attribute Selector (e.g. [attribute=foo])     
+  >- Class Selector (.class)
+  >- ID Selector (#id)
+  >- Universal Selector (*)
+  >- Element Selector (element) 
+  >- Attribute Selector (e.g. [attribute=foo])     
