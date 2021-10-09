@@ -37,7 +37,7 @@ h1{
 .video{
     font-size: 1cm;
     font-weight: bold;
-    /*display: none;*/
+    display: none;
 }
 
 /* text style, absolute unit */
@@ -159,6 +159,27 @@ ul li{
     background-color: yellow;
 }
 
-[class ~= "container"]{
-    border: 10px purple;
+/* child combinator */
+ol > li {
+    font-size: larger;
+}
+
+/* General Sibling combinator */
+div ~ div {
+    font-style: italic;
+}
+
+/* Adjacent sibling combinator */
+div + div{
+    color: white;
+}
+
+/* Combining Two Selectors */
+div.container2{
+    font-size: x-large;
+}
+
+/* Attribute Selector */
+a[href]{
+  font-style: italic;
 }
