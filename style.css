@@ -1,0 +1,164 @@
+/* google font, text color, text decoration, text align */
+h1{ 
+    color: #00FF7F;
+    text-decoration: underline;
+    background-color:hsl(248, 53%, 58%);
+    font-size: 6vh;
+    text-align: center;
+    font-family: 'Akronim', cursive;
+    
+}
+
+/* color */
+#one{
+    color: RebeccaPurple;
+}
+
+/* sizing, color */
+#two{
+    color: rgb(232,0,0); 
+    font-size: 2vw;  
+    background-color: yellowgreen;
+    max-height: 50px;
+    max-width: 500px;
+}
+
+.three{
+    font-size: 2rem;
+}
+
+/* display */
+.four{
+    display:inline-block;
+    
+}
+
+/* display, absolute unit */
+.video{
+    font-size: 1cm;
+    font-weight: bold;
+    /*display: none;*/
+}
+
+/* text style, absolute unit */
+.audio{
+    font-size: 0.5in;
+    font-style: italic;
+}
+
+/* sizing, absolute unit, background */
+.student{
+    font-size: 10mm;
+    font-style: italic;
+    width: 300px;
+    height: 50px;
+    background-color: wheat;
+   
+}
+
+/* Box Model, color */
+.box{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: dashed;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: yellow;
+}
+
+/* Box Model */
+.box2{
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: yellowgreen;
+    
+}
+
+/* layout: Flexbox, relative unit, color */
+.container{
+    height: 20vh;
+    width: 20vw;
+    background: rgb(202, 179, 225);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* layout: grid, relative unit */
+.container2{
+    height: 20vh;
+    width: 20vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+}
+
+/* relative unit */
+.container3{
+    background: rgb(202, 179, 225);
+    height: 10vh;
+}
+
+.item{
+    background: pink;
+    margin: 0.5em;
+}
+
+/* position */
+.item2{
+    position: relative;
+    left: 100px;
+}
+
+/* position */
+.item3{
+    position: sticky;
+
+}
+
+/* media query */
+@media  screen and (max-width: 300px) {
+    h1 {
+            color: red;
+    } ;
+    
+}
+/* Pseudo-class: hover button */
+button:hover{
+    color: tomato;
+}
+
+/* Pseudo-class: active paragraphs, color */
+p:active{
+    color: #FFC0CB;
+}
+
+/* universal selector */
+*{
+    background-color: palegoldenrod;
+}
+
+/* selector list */
+h2, h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Descendant combinator */
+ul li{
+    background-color: yellow;
+}
+
+[class ~= "container"]{
+    border: 10px purple;
+}

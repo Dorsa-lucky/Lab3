@@ -5,8 +5,8 @@
         <meta name = "description"
         content="It contains well written and well explained context about Pomodoro.">
         <link rel="icon" type="image/jpg" href="https://i.pinimg.com/236x/77/00/1e/77001ebe0868a3f72f6f5fff1961a8d8.jpg">
+        <link rel="stylesheet" href="style.css">
         <style>
-            h1{text-align: center; color: #00FF7F;}
             nav{border: 1px;
                 background-color: green;
                 color: white;
@@ -15,11 +15,6 @@
                 padding: 30px;}
             span{color: blue;
                 font-weight: bold;}
-            #one{color: RebeccaPurple;}
-            #two{color: rgb(232,0,0)}
-            #box {
-                border-top-right-radius: 1em 10%;
-                } 
         </style>
     </head>
     <body>
@@ -36,7 +31,7 @@
                 <hr>
                 <h2 id="two">Today's Agenda: </h2>
                 <p >
-                    <ul > 
+                    <ul class = "box"> 
                         <li>Summary of the Previous Session</li>
                         <li>Description of Pomodoro Technique</li>  
                         <li>Required tools for the Technique</li>
@@ -45,8 +40,8 @@
                 </p>
                 <hr width="70%">
             <h2 id="two">Summary of the Previous Session:</h2>
-            <h4> Time Management:</h4>
-            <p style="text-indent: 50px;" class="box" >Time management is the process of organizing and planning how to divide your time
+            <h4 class="three four"> Time Management:</h4>
+            <p style="text-indent: 50px;" >Time management is the process of organizing and planning how to divide your time
                 between specific activities. Most people understand the importance of managing their time, but 
                 they can not follow their planning.<br> The first factor is to figure out where our time goes and 
                 then prioritize our tasks daily. There is different techniques and strategies for time management
@@ -70,7 +65,7 @@
         <section>
             <h3 id="two">Required Tools:</h3>
             <p>
-                <ol>
+                <ol class="box2"> 
                     <li>Mechanical timer</li>
                     <li>pen</li>
                     <li>pencil</li>
@@ -78,13 +73,17 @@
             </p>
             <p> </p>
             <p> </p>
-            <p>Video Sample:</p>
+            <p> </p>
+            <p> </p>
+            <p> </p>
+            <p> </p>
+            <p class="video">Video Sample:</p>
             <video width="500px" height="500px" controls="controls">
                 <source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" type="video/mp4">
             </Video>
             <p> </p>
             <p> </p>
-            <p>Audio Sample:</p>
+            <p class="audio">Audio Sample:</p>
             <audio controls src="https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3" type="audio/mp3">
 
             </audio>
@@ -102,7 +101,7 @@
         <p></p>
         <form>
             <div class = "tilte">
-                <label>Student information:</label>
+                <label class="student">Student information:</label>
             </div>
             <fieldset>
                 <label for="name">Name:</label>
@@ -142,6 +141,21 @@
                <button>Submit</button>
             </fieldset>
         </form> 
+        <div class="container">
+            <div class="item"> one </div>
+            <div class="item"> two </div>
+            <div class="item"> three </div>
+        </div>
+        <div class="container2">
+            <div class="item"> four </div>
+            <div class="item"> five </div>
+            <div class="item"> six </div>
+        </div>
+        <div class="container3">
+            <div class="item item2"> seven </div>
+            <div class="item item3"> eight </div>
+            <div class="item"> nine </div>
+        </div>
         <footer>
             <p>I'm attaching an <span>online Pomodora Technique website</span> that is usable on mobile and desktop.
                 <nav>
