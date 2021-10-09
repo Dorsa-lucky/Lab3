@@ -9,7 +9,7 @@ h1{
     
 }
 
-/* color */
+/* color, ID Selector */
 #one{
     color: RebeccaPurple;
 }
@@ -23,6 +23,7 @@ h1{
     max-width: 500px;
 }
 
+/* Class Selector */
 .three{
     font-size: 2rem;
 }
